@@ -1,0 +1,154 @@
+         +---------------------+
+         |     Étudiants       |
+         +---------------------+
+                 | 1
+                 |
+                 |
+                 |
+                 | n
+         +---------------------+
+         |    Inscriptions     |
+         +---------------------+
+                 | 1
+                 |
+                 |
+                 |
+                 | n
+         +---------------------+
+         |  AnnéesScolaires    |
+         +---------------------+
+
+                 | 1
+                 |
+                 |
+                 |
+                 | n
+         +---------------------+
+         |       Classes       |
+         +---------------------+
+
+                 | 1
+                 |
+                 |
+                 |
+                 | n
+         +---------------------+
+         |       Notes         |
+         +---------------------+
+
+                 | 1
+                 |
+                 |
+                 |
+                 | n
+         +---------------------+
+         |      Matières       |
+         +---------------------+
+
+                 | 1
+                 |
+                 |
+                 |
+                 | n
+         +---------------------+
+         |   EmploisDuTemps    |
+         +---------------------+
+
+                 | 1
+                 |
+                 |
+                 |
+                 | n
+         +---------------------+
+         |     Enseignants     |
+         +---------------------+
+
+                 | 1
+                 |
+                 |
+                 |
+                 | n
+         +---------------------+
+         |      Paiements      |
+         +---------------------+
+
+
+Étudiants
++------------+----------------+
+| student_id | INTEGER (PK)   |
+| firstname  | TEXT           |
+| lastname   | TEXT           |
+| date_of_birth | DATE        |
+| gender     | TEXT           |
+| nationality| TEXT           |
+| address    | TEXT           |
+| phone      | TEXT           |
+| picture    | TEXT           |
++------------+----------------+
+
+AnnéesScolaires
++--------+------------------+
+| year_id| INTEGER (PK)     |
+| year   | TEXT (YYYY-YYYY) |
++--------+------------------+
+
+Inscriptions
++--------------+---------------+
+| enrollment_id| INTEGER (PK)  |
+| student_id   | INTEGER (FK)  |
+| year_id      | INTEGER (FK)  |
+| class_id     | INTEGER (FK)  |
+| is_repeating | BOOLEAN       |
++--------------+---------------+
+
+Classes
++---------+-----------+
+| class_id| INTEGER (PK) |
+| class_name | TEXT    |
++---------+-----------+
+
+Notes
++---------+---------------+
+| grade_id| INTEGER (PK)  |
+| student_id | INTEGER (FK)|
+| year_id | INTEGER (FK)  |
+| subject_id | INTEGER (FK)|
+| grade  | REAL           |
+| average| REAL           |
++---------+---------------+
+
+Matières
++----------+------------+
+| subject_id | INTEGER (PK)|
+| subject_name | TEXT    |
++----------+------------+
+
+EmploisDuTemps
++-------------+---------------+
+| timetable_id| INTEGER (PK)  |
+| student_id  | INTEGER (FK)  |
+| year_id     | INTEGER (FK)  |
+| class_id    | INTEGER (FK)  |
+| day         | TEXT          |
+| period      | TEXT          |
+| subject_id  | INTEGER (FK)  |
+| teacher_id  | INTEGER (FK)  |
++-------------+---------------+
+
+Enseignants
++------------+----------------+
+| teacher_id | INTEGER (PK)   |
+| firstname  | TEXT           |
+| lastname   | TEXT           |
+| subject_id | INTEGER (FK)   |
++------------+----------------+
+
+Paiements
++-----------+-----------------+
+| payment_id| INTEGER (PK)    |
+| student_id| INTEGER (FK)    |
+| year_id   | INTEGER (FK)    |
+| amount    | REAL            |
+| payment_date | DATE         |
+| description | TEXT          |
++-----------+-----------------+

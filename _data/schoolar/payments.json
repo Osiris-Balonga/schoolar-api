@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8b9",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "amount": 25000,
+    "month": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8ba",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "amount": 12500,
+    "month": "2023-09-01T00:00:00.000Z"
+  }
+]

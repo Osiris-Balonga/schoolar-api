@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8b6",
+    "firstname": "Pierre",
+    "lastname": "Martin",
+    "picture": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "course_id": "64ae0f4801d0f0e0b3d2e8b2",
+    "classroom_id": "64ae0f4801d0f0e0b3d2e8b0"
+  },
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8b8",
+    "firstname": "Luc",
+    "lastname": "Durant",
+    "picture": "https://images.pexels.com/photos/6801642/pexels-photo-6801642.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "course_id": "64ae0f4801d0f0e0b3d2e8b4",
+    "classroom_id": "64ae0f4801d0f0e0b3d2e8ae"
+  }
+]

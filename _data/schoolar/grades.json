@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8b1",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "course_id": "64ae0f4801d0f0e0b3d2e8b2",
+    "grade": 15.5,
+    "average": 14.0
+  },
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8b3",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "course_id": "64ae0f4801d0f0e0b3d2e8b2",
+    "grade": 17.0,
+    "average": 16.0
+  }
+]

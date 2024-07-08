@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "firstname": "Jean",
+    "lastname": "Dupont",
+    "dateOfBirth": "2005-04-23",
+    "gender": "Masculin",
+    "nationality": "Française",
+    "address": "10 Rue de la République",
+    "phone": "+33123456789",
+    "picture": "https://a.storyblok.com/f/191576/1200x800/a3640fdc4c/profile_picture_maker_before.webp",
+    "classroom": "Terminale C",
+    "tutor": "Mme Martin"
+  },
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "firstname": "Marie",
+    "lastname": "Curie",
+    "dateOfBirth": "2006-11-07",
+    "gender": "Féminin",
+    "nationality": "Française",
+    "address": "20 Avenue des Champs-Élysées",
+    "phone": "+33123456789",
+    "picture": "https://t3.ftcdn.net/jpg/07/24/80/72/360_F_724807299_9p79Bic23LDZz9C6vbf0jW0m94LqKFXH.jpg",
+    "classroom": "Seconde A",
+    "tutor": "M. Durant"
+  }
+]

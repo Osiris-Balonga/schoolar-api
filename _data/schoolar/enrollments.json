@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8ad",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "classroom_id": "64ae0f4801d0f0e0b3d2e8ae",
+    "is_repeating": false
+  },
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8af",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "classroom_id": "64ae0f4801d0f0e0b3d2e8b0",
+    "is_repeating": false
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8b2",
+    "course": "Mathématiques",
+    "average": 4
+  },
+  {
+    "_id": "64ae0f4801d0f0e0b3d2e8b4",
+    "course": "Physique",
+    "average": 3
+  }
+]
