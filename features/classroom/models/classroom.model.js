@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const MainSchema = require("../../../shared/models/main.model");
 
 const Schema = new mongoose.Schema({
-  classroom: { type: String, default: false },
+  classroom: { type: String, default: "" },
 });
 
 Schema.add(MainSchema);

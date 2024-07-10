@@ -4,6 +4,14 @@ class PopulateSchoolar {
    * @param {} params
    * @returns
    */
+  students() {
+    return [
+      {
+        path: "classroom_id",
+        select: "",
+      },
+    ];
+  }
   teachers() {
     return [
       {

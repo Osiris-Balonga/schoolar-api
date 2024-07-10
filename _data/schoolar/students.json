@@ -9,7 +9,7 @@
     "address": "10 Rue de la République",
     "phone": "+33123456789",
     "picture": "https://a.storyblok.com/f/191576/1200x800/a3640fdc4c/profile_picture_maker_before.webp",
-    "classroom": "Terminale C",
+    "classroom_id": "64ae0f4801d0f0e0b3d2e8ae",
     "tutor": "Mme Martin"
   },
   {
@@ -22,7 +22,7 @@
     "address": "20 Avenue des Champs-Élysées",
     "phone": "+33123456789",
     "picture": "https://t3.ftcdn.net/jpg/07/24/80/72/360_F_724807299_9p79Bic23LDZz9C6vbf0jW0m94LqKFXH.jpg",
-    "classroom": "Seconde A",
+    "classroom_id": "64ae0f4801d0f0e0b3d2e8b0",
     "tutor": "M. Durant"
   }
 ]

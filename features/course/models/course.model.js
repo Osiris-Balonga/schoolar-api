@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const MainSchema = require("../../../shared/models/main.model");
 
 const Schema = new mongoose.Schema({
-  course: { type: String, default: false },
+  course: { type: String, default: "" },
   average: { type: Number, default: 0 },
 });
 

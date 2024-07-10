@@ -13,10 +13,10 @@ const Schema = new mongoose.Schema({
       "Samedi",
       "Dimanche",
     ],
-    default: false,
+    default: "Dimanche",
   },
-  startTime: { type: String, default: false },
-  EndTime: { type: String, default: false },
+  startTime: { type: String, default: "" },
+  EndTime: { type: String, default: "" },
   student_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "student",

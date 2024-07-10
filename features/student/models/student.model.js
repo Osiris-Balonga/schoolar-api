@@ -2,20 +2,23 @@ const mongoose = require("mongoose");
 const MainSchema = require("../../../shared/models/main.model");
 
 const Schema = new mongoose.Schema({
-  firstname: { type: String, default: false },
-  lastname: { type: String, default: false },
-  dateOfBirth: { type: Date, default: false },
+  firstname: { type: String, default: "" },
+  lastname: { type: String, default: "" },
+  dateOfBirth: { type: Date },
   gender: {
     type: String,
     enum: ["Masculin", "Féminin"],
-    default: false,
+    default: "Masculin",
   },
-  nationality: { type: String, default: false },
-  address: { type: String, default: false },
-  phone: { type: String, default: false },
-  picture: { type: String, default: false },
-  classroom: { type: String, default: false },
-  tutor: { type: String, default: false },
+  nationality: { type: String, default: "" },
+  address: { type: String, default: "" },
+  phone: { type: String, default: "" },
+  picture: { type: String, default: "" },
+  classroom_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "classroom",
+  },
+  tutor: { type: String, default: "" },
 });
 
 Schema.add(MainSchema);

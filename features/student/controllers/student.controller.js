@@ -2,6 +2,7 @@ const StudentModel = require("../models/student.model");
 const ErrorResponse = require("../../../shared/utils/errorResponse");
 const asyncHandler = require("../../../shared/middlewares/async");
 const AllFunctions = require("../../../shared/utils/functions");
+const PopulateSchoolar = require("../../../shared/utils/populates/populateSchoolar");
 
 module.exports.getAll = asyncHandler(async (req, res, next) => {
   res.status(200).json(res.advancedResults);
@@ -22,7 +23,8 @@ module.exports.create = asyncHandler(async (req, res, next) => {
 });
 
 module.exports.getOne = asyncHandler(async (req, res, next) => {
-  const student = await StudentModel.findById(req.params.id);
+  const student = await StudentModel.findById(req.params.id).populate(
+    new PopulateSchoolar().students());
 
   if (!student) {
     return next(
