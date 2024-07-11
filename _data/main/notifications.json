@@ -1,0 +1,79 @@
+[
+  {
+    "notifObject": "Les résultats du 1er trimestre sont disponibles",
+    "notifMessage": "Nous avons le plaisir de vous informer que les résultats du premier trimestre de l'année scolaire sont maintenant disponibles. Vous pouvez accéder à ces résultats en suivant le lien ci-dessous. Nous vous encourageons vivement à prendre le temps d'examiner les progrès et les réalisations de votre enfant jusqu'à présent. Votre implication dans son éducation est précieuse, et nous sommes là pour vous soutenir à chaque étape du parcours académique de votre enfant. Si vous avez des questions ou des préoccupations concernant les résultats, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à comprendre et à soutenir le développement académique de votre enfant. Merci pour votre confiance continue en notre école et en notre équipe enseignante.",
+    "notifDatetime": "2024-05-17 13:15",
+    "author": "Anne Marie Javouhey",
+    "isSeen": false
+  },
+  {
+    "notifObject": "Réunion parents-professeurs",
+    "notifMessage": "Nous souhaitons vous rappeler que la réunion parents-professeurs aura lieu le 20 juin 2024 à partir de 18h00 dans l'auditorium de l'école. Cette réunion est une excellente occasion pour discuter du progrès de votre enfant avec ses enseignants et de poser toutes les questions que vous pourriez avoir concernant l'année scolaire en cours. Nous vous encourageons à participer activement à cette rencontre.",
+    "notifDatetime": "2024-06-10 08:00",
+    "author": "Directeur de l'école",
+    "isSeen": false
+  },
+  {
+    "notifObject": "Sortie scolaire au musée",
+    "notifMessage": "Nous organisons une sortie scolaire au musée d'histoire naturelle le 25 juin 2024. Cette sortie vise à enrichir les connaissances de nos élèves sur la biodiversité et l'histoire naturelle. Veuillez remplir et retourner le formulaire de consentement avant le 20 juin. Merci de préparer un déjeuner emballé pour votre enfant ce jour-là.",
+    "notifDatetime": "2024-06-15 09:30",
+    "author": "Professeur principal",
+    "isSeen": true
+  },
+  {
+    "notifObject": "Fermeture exceptionnelle de l'école",
+    "notifMessage": "En raison des conditions météorologiques extrêmes prévues cette semaine, l'école sera fermée le 27 juin 2024. Nous vous tiendrons informés de toute mise à jour concernant la réouverture de l'école. Veuillez rester en sécurité et suivre les consignes des autorités locales.",
+    "notifDatetime": "2024-06-20 14:45",
+    "author": "Administration de l'école",
+    "isSeen": false
+  },
+  {
+    "notifObject": "Nouveau programme de tutorat",
+    "notifMessage": "Nous sommes ravis de vous annoncer le lancement d'un nouveau programme de tutorat destiné à soutenir les élèves en difficulté. Ce programme commencera en septembre 2024 et offrira des sessions de tutorat hebdomadaires en mathématiques, sciences et langues. Les inscriptions sont ouvertes dès maintenant. N'hésitez pas à contacter l'administration pour plus d'informations.",
+    "notifDatetime": "2024-06-22 16:00",
+    "author": "Conseiller pédagogique",
+    "isSeen": true
+  },
+  {
+    "notifObject": "Changement d'horaire pour la semaine prochaine",
+    "notifMessage": "Veuillez noter qu'en raison d'un événement spécial à l'école, l'horaire de classe pour la semaine du 1er juillet 2024 sera modifié. Les nouveaux horaires seront publiés sur notre site web et transmis par email aux parents et aux élèves.",
+    "notifDatetime": "2024-06-25 10:30",
+    "author": "Directeur adjoint",
+    "isSeen": false
+  },
+  {
+    "notifObject": "Rappel: Inscriptions pour l'année scolaire 2024-2025",
+    "notifMessage": "Les inscriptions pour l'année scolaire 2024-2025 sont maintenant ouvertes. Nous encourageons tous les parents à remplir les formulaires d'inscription en ligne avant la date limite du 15 juillet 2024. Pour toute question ou assistance, veuillez contacter le bureau des admissions.",
+    "notifDatetime": "2024-06-28 09:00",
+    "author": "Bureau des admissions",
+    "isSeen": false
+  },
+  {
+    "notifObject": "Séance d'orientation pour les nouveaux élèves",
+    "notifMessage": "Une séance d'orientation pour les nouveaux élèves aura lieu le 3 juillet 2024 à 10h00 dans le gymnase de l'école. Les parents et les nouveaux élèves sont encouragés à y assister pour se familiariser avec les installations, rencontrer les enseignants et poser des questions sur la vie scolaire.",
+    "notifDatetime": "2024-06-30 14:15",
+    "author": "Conseiller d'orientation",
+    "isSeen": true
+  },
+  {
+    "notifObject": "Modification de l'emploi du temps des enseignants",
+    "notifMessage": "Veuillez noter que l'emploi du temps des enseignants sera ajusté pour le trimestre d'automne 2024 en raison de nouvelles directives pédagogiques. Les enseignants recevront les détails et les changements spécifiques lors de la réunion du corps professoral prévue le 5 juillet 2024.",
+    "notifDatetime": "2024-07-02 11:30",
+    "author": "Direction académique",
+    "isSeen": false
+  },
+  {
+    "notifObject": "Rappel: Journée portes ouvertes",
+    "notifMessage": "Ne manquez pas notre journée portes ouvertes le 10 juillet 2024 de 9h00 à 16h00. C'est l'occasion idéale pour les familles intéressées de visiter notre école, rencontrer nos enseignants et découvrir nos programmes éducatifs. Nous espérons vous voir nombreux!",
+    "notifDatetime": "2024-07-05 09:45",
+    "author": "Directeur des admissions",
+    "isSeen": false
+  },
+  {
+    "notifObject": "Formation continue pour les enseignants",
+    "notifMessage": "La formation continue pour les enseignants aura lieu du 15 au 20 juillet 2024. Cette formation vise à renforcer les compétences pédagogiques et à introduire de nouvelles méthodes d'enseignement pour le prochain cycle scolaire. Les détails concernant les horaires et les sessions seront communiqués aux enseignants prochainement.",
+    "notifDatetime": "2024-07-08 13:00",
+    "author": "Direction des ressources humaines",
+    "isSeen": true
+  }
+]

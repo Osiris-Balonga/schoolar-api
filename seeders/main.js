@@ -10,6 +10,7 @@ const EnrollmentModel = require("../features/enrollment/models/enrollment.model"
 const GradeModel = require("../features/grade/models/grade.model");
 const PaymentModel = require("../features/payment/models/payment.model");
 const TimetableModel = require("../features/timetable/models/timetable.model");
+const NotificationModel = require("../features-main/notification/models/notification.model");
 const StoryModel = require("../features-main/story/models/story.model");
 
 // Define environment variable
@@ -45,6 +46,9 @@ const payments = JSON.parse(
 const timetables = JSON.parse(
   fs.readFileSync(`${__dirname}/../_data/schoolar/timetables.json`)
 );
+const notifications = JSON.parse(
+  fs.readFileSync(`${__dirname}/../_data/main/notifications.json`)
+);
 const stories = JSON.parse(
   fs.readFileSync(`${__dirname}/../_data/main/stories.json`)
 );
@@ -52,22 +56,15 @@ const stories = JSON.parse(
 const importData = async () => {
   try {
     await StudentModel.create(students);
-    console.log("data has been imported".brightGreen);
     await CourseModel.create(courses);
-    console.log("data has been imported".brightGreen);
     await ClassroomModel.create(classrooms);
-    console.log("data has been imported".brightGreen);
     await TeacherModel.create(teachers);
-    console.log("data has been imported".brightGreen);
     await AcademicYearModel.create(academicYears);
-    console.log("data has been imported".brightGreen);
     await EnrollmentModel.create(enrollments);
-    console.log("data has been imported".brightGreen);
     await GradeModel.create(grades);
-    console.log("data has been imported".brightGreen);
     await PaymentModel.create(payments);
-    console.log("data has been imported".brightGreen);
     await TimetableModel.create(timetables);
+    await NotificationModel.create(notifications);
     console.log("data has been imported".brightGreen);
   } catch (error) {
     console.log("error importing data : ".brightRed, error);
@@ -85,6 +82,7 @@ const deleteData = async () => {
     await GradeModel.deleteMany();
     await PaymentModel.deleteMany();
     await TimetableModel.deleteMany();
+    await NotificationModel.deleteMany();
     await StoryModel.deleteMany();
     console.log("data has been deleted".brightGreen);
   } catch (error) {

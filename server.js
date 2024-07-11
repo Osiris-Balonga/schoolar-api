@@ -26,10 +26,13 @@ app.use(errorHandler);
 
 app.use(logger); // Personal logger
 
-/**  /api/v1/student **/
+/**  /api/v1/schoolar **/
 const studentRoutes = require("./shared/routes/schoolar.route");
-
 app.use(PREFIX + VERSION + "/schoolar", studentRoutes);
+
+/**  /api/v1/main **/
+const mainRoutes = require("./shared/routes/main.route");
+app.use(PREFIX + VERSION + "/main", mainRoutes);
 
 const PORT = process.env.PORT || 7000;
 
