@@ -1,16 +1,218 @@
 [
   {
-    "_id": "64ae0f4801d0f0e0b3d2e8b9",
+    "_id": "64b50b2f01d0f0e0b3d2e8c1",
     "student_id": "64ae0f4801d0f0e0b3d2e8a9",
     "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
-    "amount": 25000,
-    "month": "2024-01-01T00:00:00.000Z"
+    "month": "Octobre",
+    "amount_due": 25000,
+    "amount_paid": 25000,
+    "payment_status": "Payé"
   },
   {
-    "_id": "64ae0f4801d0f0e0b3d2e8ba",
-    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "_id": "64b50b2f01d0f0e0b3d2e8c2",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
     "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
-    "amount": 12500,
-    "month": "2023-09-01T00:00:00.000Z"
+    "month": "Novembre",
+    "amount_due": 25000,
+    "amount_paid": 25000,
+    "payment_status": "Payé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8c3",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Décembre",
+    "amount_due": 25000,
+    "amount_paid": 25000,
+    "payment_status": "Payé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8c4",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Janvier",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8c5",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Février",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8c6",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Mars",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8c7",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Avril",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8c8",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Mai",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8c9",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Juin",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8ca",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Juillet",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8cb",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Août",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8cc",
+    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
+    "month": "Septembre",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8cd",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Octobre",
+    "amount_due": 25000,
+    "amount_paid": 25000,
+    "payment_status": "Payé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8ce",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Novembre",
+    "amount_due": 25000,
+    "amount_paid": 25000,
+    "payment_status": "Payé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8cf",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Décembre",
+    "amount_due": 25000,
+    "amount_paid": 25000,
+    "payment_status": "Payé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8d0",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Janvier",
+    "amount_due": 25000,
+    "amount_paid": 15000,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8d1",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Février",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8d2",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Mars",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8d3",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Avril",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8d4",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Mai",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8d5",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Juin",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8d6",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Juillet",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8d7",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Août",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
+  },
+  {
+    "_id": "64b50b2f01d0f0e0b3d2e8d8",
+    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
+    "academicYear_id": "64ae0f4801d0f0e0b3d2e8ac",
+    "month": "Septembre",
+    "amount_due": 25000,
+    "amount_paid": 0,
+    "payment_status": "Impayé"
   }
 ]

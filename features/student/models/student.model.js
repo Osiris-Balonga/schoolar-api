@@ -18,6 +18,12 @@ const Schema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "classroom",
   },
+  academicYear_id: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "academicYear",
+    },
+  ],
   tutor: { type: String, default: "" },
 });
 
