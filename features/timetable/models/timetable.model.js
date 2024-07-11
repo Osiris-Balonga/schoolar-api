@@ -16,7 +16,7 @@ const Schema = new mongoose.Schema({
     default: "Dimanche",
   },
   startTime: { type: String, default: "" },
-  EndTime: { type: String, default: "" },
+  endTime: { type: String, default: "" },
   student_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "student",

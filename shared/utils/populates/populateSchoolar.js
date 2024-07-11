@@ -71,10 +71,6 @@ class PopulateSchoolar {
   timetables() {
     return [
       {
-        path: "student_id",
-        select: "",
-      },
-      {
         path: "academicYear_id",
         select: "",
       },

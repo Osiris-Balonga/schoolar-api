@@ -1,24 +1,22 @@
 [
   {
     "_id": "64ae0f4801d0f0e0b3d2e8b5",
-    "student_id": "64ae0f4801d0f0e0b3d2e8a9",
     "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
     "classroom_id": "64ae0f4801d0f0e0b3d2e8ae",
     "day": "Lundi",
     "startTime": "07:00",
     "endTime": "09:00",
     "course_id": "64ae0f4801d0f0e0b3d2e8b2",
-    "teacher_id": "64ae0f4801d0f0e0b3d2e8b6"
+    "teacher_id": "64ae0f4801d0f0e0b3d2e8b8"
   },
   {
     "_id": "64ae0f4801d0f0e0b3d2e8b7",
-    "student_id": "64ae0f4801d0f0e0b3d2e8aa",
     "academicYear_id": "64ae0f4801d0f0e0b3d2e8ab",
     "classroom_id": "64ae0f4801d0f0e0b3d2e8b0",
     "day": "Mardi",
     "startTime": "09:30",
     "endTime": "12:00",
     "course_id": "64ae0f4801d0f0e0b3d2e8b4",
-    "teacher_id": "64ae0f4801d0f0e0b3d2e8b8"
+    "teacher_id": "64ae0f4801d0f0e0b3d2e8b6"
   }
 ]
